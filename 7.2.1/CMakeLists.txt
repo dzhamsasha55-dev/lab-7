@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(lab LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+add_executable(lab main.cpp)
+add_executable(unit_tests tests.cpp)
+enable_testing()
+add_test(NAME unit_tests COMMAND unit_tests)

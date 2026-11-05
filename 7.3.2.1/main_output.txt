@@ -1,0 +1,5 @@
+n, then n*n integers:       1      2      3
+      2      5      6
+      3      7      9
+Matching indices (zero-based), count=1
+      0
